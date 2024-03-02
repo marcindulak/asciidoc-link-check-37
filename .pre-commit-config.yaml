@@ -1,6 +1,6 @@
 repos:
-- repo: https://github.com/gaurav-nelson/asciidoc-link-check
+- repo: https://github.com/marcindulak/asciidoc-link-check
   # See https://pre-commit.com/#using-the-latest-version-for-a-repository
-  rev: master
+  rev: fix-program-is-not-a-function
   hooks:
     - id: asciidoc-link-check
