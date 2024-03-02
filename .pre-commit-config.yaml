@@ -1,0 +1,6 @@
+repos:
+- repo: https://github.com/gaurav-nelson/asciidoc-link-check
+  # See https://pre-commit.com/#using-the-latest-version-for-a-repository
+  rev: master
+  hooks:
+    - id: asciidoc-link-check
